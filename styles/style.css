@@ -70,6 +70,7 @@ justify-content: space-between;
 
 .nav-item a{
     text-decoration: none;
+    color: black;
 
 }
 
@@ -112,21 +113,50 @@ background: rgba(255, 255, 255, 0.30);
 width: 800px;
 height: 84px;
 margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+
 }
 
-.box-input{
-    padding: 16px;
-    display: flex;
-    gap: 24px;
-    width: 174px;
-    height: 52px;
-}
 
-button{
+.box-input input{
     width: 174px;
 height: 52px;
+ border-radius: 8px;
+ border: none;
+ text-align: center;
+ color:  rgba(19, 19, 24, 0.50);
+
 
 }
+
+.box-input select{
+    width: 174px;
+height: 52px;
+ border-radius: 8px;
+ border: none;
+ text-align: center;
+ color: rgba(19, 19, 24, 0.50);
+ 
+
+}
+
+.box-input .button{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+background: #FF5400;
+width: 174px;
+height: 40px;
+ border-radius: 8px;
+ text-align: center;
+ padding-top: 16px;
+ font-size: 1rem;
+ 
+}
+
+
 
 
 
@@ -200,9 +230,10 @@ margin-bottom: 48px;
 }
 
 .destination-img{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    margin-top: 24px;
 }
 
 
@@ -238,14 +269,47 @@ font-weight: 400;
 
 
 
-.card{
+.card-hotel{
+    padding: 32px;
     width: 573px;
 height: 284px;
 border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
 }
+
+.card-map{
+    padding: 32px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.card-price{
+    padding: 32px;
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin: 24px auto;
+
+}
+
+
+
 .card-flex{
+    margin-top: 48px;
     display: flex;
+    gap: 24px;
 } 
+
+.card-icon{
+    width: 64px;
+height: 64px;
+}
 
 
 /* newsletter section */
