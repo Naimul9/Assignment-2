@@ -124,6 +124,7 @@ footer{
 
 .foot-heading, footer p, .footer-hr{
     width: 100%;
+    text-align: center;
 }
 
 
