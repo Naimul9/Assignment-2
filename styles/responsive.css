@@ -1,0 +1,13 @@
+@media screen and (max-width:600px) {
+
+    nav, .nav-item, .banner, .box {
+        width: 100%;
+        flex-direction: column;
+    }
+    .logo-heading{
+        width: 100%;
+        align-items: center;
+        margin: 0 25%;
+    }
+    
+}

@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+:root{
+    --orange-color: #FF5400;
+    --white-color: #fff;
+    --max-width: 1170px;
+
+
+}
+
+header{
+    max-width: 1178px;
+margin: 0 auto;
+}
+
+/* Nav section */
+
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+
+
+.logo-heading{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+    
+}
+
+.logo-heading h4{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.logo-heading span{
+    color: var(--orange-color);
+}
+
+
+.logo-heading img{
+    width: 48px;
+    
+
+}
+
+.nav-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    color: #424247;
+    font-weight: 400;
+    font-size: 1.125rem;
+    justify-content: flex-end;
+}
+.nav-item span{
+    color: var(--orange-color);
+    font-weight: 700;
+
+}
+
+.nav-item a{
+    text-decoration: none;
+
+}
+
+
+/* banner section */
+
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    max-width: 1170px;
+height: 500px;
+margin: 0 auto;
+margin-bottom: 100px;
+}
+.banner h2{
+    color: var(--white-color);
+    font-size: 4rem;
+font-weight: 800;
+width: 596px;
+height: 80px;
+margin: 0 auto;
+padding-top: 106px;
+}
+.banner p{
+    font-size: 1rem;
+font-weight: 400;
+color: var(--white-color);
+width: 676px;
+height: 52px;
+margin: 0 auto;
+margin-top: 24px;
+text-align: center;
+margin-bottom: 78px;
+}
+
+.banner .box{
+    display: flex;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+width: 800px;
+height: 84px;
+margin: 0 auto;
+}
+
+.box-input{
+    padding: 16px;
+    display: flex;
+    gap: 24px;
+    width: 174px;
+    height: 52px;
+}
+
+button{
+    width: 174px;
+height: 52px;
+
+}
+
+
+
+/* popular tours */
+
+.popular-tours{
+    display: flex;
+    width: var(--max-width);
+    margin: 0 auto;
+    gap: 40px;  
+}
+
+.popular-tours h2{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+
+.popular-description{
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+
+.popular-tours img{
+    width: 540px;
+    height: 550px;
+
+}
+
+.popular-description button{
+    width: 174px;
+height: 52px;
+background-color: var(--orange-color);
+border-radius: 8px;
+border: none;
+
+color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 700;
+margin-top: 32px;
+}
+
+/* Your destination */
+.destination-text, .destination-img{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.destination-text{
+    max-width: 643px;
+    margin: 0 auto;
+    margin-top: 100px;
+text-align: center;
+}
+.destination-text h2{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.destination-text p{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+
+.destination-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+/* .maldives{
+    text-align: center;
+  margin-top: -132px;
+
+} */
+
+
+
+/* Choose us  */
+.choose{
+    width: var(--max-width);
+    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.choose-text{
+    text-align: center;
+    width: 643px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+}
+.card-flex{
+    display: flex;
+} 
+
+
+/* newsletter section */
+
+.newsletter{
+    width: var(--max-width);
+    height: 422px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter-text{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    padding: 40px 0px 0px 40px;
+    
+}
+
+
+
+.main-hr{
+    background: rgba(19, 19, 24, 0.10);
+height: 1px; 
+width: 393px;
+margin: 24px 0px;
+
+
+}
+
+.newsletter-text input{
+
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 373px;
+height: 52px;
+border: none;
+padding: 0px 0px 0px 20px;
+}
+.newsletter-text .mail{
+    margin-top: 16px;
+}
+
+
+.newsletter-text button{
+    border-radius: 8px;
+background: #FF5400;
+width: 393px;
+height: 52px;
+margin-top: 24px;
+border: none;
+}
+.newsletter-text .subscribe{
+    color: #FFF;
+text-align: center;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+.newsletter-img{
+    width: 672px;
+}
+
+
+
+/* footer */
+
+footer{
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+     height: 510px;
+}
+
+
+.foot-heading{  
+    padding-top: 110px; 
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+    justify-content: center;
+}
+
+.foot-heading h4{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.foot-heading span{
+    color: var(--orange-color);
+}
+
+
+.foot-heading img{
+    width: 48px;
+}
+footer p{
+   width: 769px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.icon{
+    
+    display: flex;
+height: 24px;
+width: 174px;
+margin: 32px auto;
+
+}
+
+.footer-hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 872px;
+height: 1px;
+margin: 0 auto;
+}
+
+.copyright{
+    color: #131318;
+font-family: Inter;
+font-size: 1rem;
+font-weight: 300;
+margin-top: 50px;
+font-family: 'Inter', sans-serif;
+
+}
+
