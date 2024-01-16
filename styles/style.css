@@ -236,6 +236,46 @@ margin-bottom: 48px;
     margin-top: 24px;
 }
 
+.maldives{
+    transform:  translateY(-170px);
+}
+
+.indonesia{
+    transform:  translateY(-170px);
+}
+
+
+.srilanka{
+    transform:  translateY(-163px);
+}
+
+
+.north-america{
+    transform:  translateY(-163px);
+}
+
+.kashmir{
+    transform:  translateY(-163px);
+}
+
+.bangladesh{
+    transform:  translateY(-170px);
+}
+
+.bandarban{
+    transform: translateY(-170px);
+}
+
+.text-color{
+    color: #FFF;
+font-size: 28px;
+text-align: center;
+font-weight: 800;
+
+}
+
+
+
 
 
 
