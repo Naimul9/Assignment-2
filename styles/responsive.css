@@ -114,6 +114,31 @@
     margin-top: 24px;
     flex-direction: column;
     margin-bottom: 450px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.newsletter-text{
+    width: 90%;
+    padding: 0px 10px 20px 15px;
+    gap: 0px;
+}
+
+.newsletter-text input{
+    width: 90%;
+}
+.newsletter-text button{
+    width: 95%;
+}
+
+.main-hr{
+    width: 95%;
+}
+
+.newsletter-img{
+    width: 100%;
+    padding: 0%;
+
 }
 
 
