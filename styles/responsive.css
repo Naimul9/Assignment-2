@@ -49,10 +49,12 @@
         gap: 10px;
     }
 
-    .box-item input , .box-input select, .box-input .button{
+ .box-input select, .box-input .button{
         width: 100%;
     }
-
+    .box-item input{
+        width: 91%;
+    }
     
 /* banner ends */
 
