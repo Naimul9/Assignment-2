@@ -24,17 +24,33 @@
         font-size: 2rem;
       width: 100%;
         text-align: center;
+        margin-bottom: 0px;
     }
 
     .banner p{
-        margin: 0;
-        width: 100%; 
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 100%;
         text-align: center;
+        
 
     }
-    .banner .box{
-        flex-direction: column;
-       align-items: center;
+.box{
+      width: 80%; 
+    
+      
+    }
+
+    .box-item{
+    
+        grid-template-columns: repeat(1, 1fr);
+        margin: 15px;
+        gap: 10px;
+    }
+
+    .box-item input , .box-input select, .box-input .button{
+        width: 100%;
     }
 
     
