@@ -235,11 +235,17 @@ margin-bottom: 48px;
 }
 
 .destination-img{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 24px;
+    width: 100%;
   
 }
+
+
+
+
+
+
 
 .maldives{
     transform:  translateY(-170px);

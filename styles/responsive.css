@@ -28,7 +28,7 @@
     }
 
     .banner p{
-        padding: 0px;
+      
         margin-top: 0px;
         margin-bottom: 30px;
         width: 100%;
@@ -74,14 +74,25 @@
 
 
 /* choose ur destination starts */
-.destination-text, .destination-img{
+.destination-text{
     width: 100%;
 }
 
 .destination-img{
+width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0;
+   
+}
 
-    grid-template-columns: repeat(1, 1fr);
- 
+.maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+    transform: translateY(-110px);
+}
+
+.destination-img img{
+    width: 100%;
+    height: 176px;
 }
 
 /* choose ur destination end */
@@ -131,7 +142,7 @@
 .newsletter{
     margin-top: 24px;
     flex-direction: column;
-    margin-bottom: 450px;
+    margin-bottom: 300px;
     width: 100%;
     margin-left: 5px;
 }
@@ -153,8 +164,37 @@
     width: 95%;
 }
 
+.newsletter-img{
+    width: 100%;
+}
 
+.newsletter-img img{
+    width: 97%;
+    height: 300px;
+}
 
+.newsletter-img .discount{
+    transform: rotate(-19.628deg) translateX(180px) translateY(-80px);
+    width: 60%;
+    height: 79px;
+}
+
+.discount p{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 0px;
+padding-top: 10px;
+}
+.discount h3{
+    margin-top: 4px;
+    color: #FFF;
+font-size: 1.5rem;
+font-weight: 800;
+text-align: center;
+
+}
 
 
 
